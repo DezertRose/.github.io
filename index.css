@@ -1,0 +1,57 @@
+html, body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;  
+}
+
+.main{
+background-color: bisque;
+padding: 1px;
+flex: 1;
+text-decoration: none;
+color: rgb(9, 36, 87);
+font-size: 20px;
+}
+
+.others{
+display: flex;
+flex-direction: column;
+flex: 4;
+height: 80%;
+background-color: lightblue;
+}
+
+.content{
+background-color: dodgerblue;
+flex: 3;
+height: 100%;
+}
+
+#Name{
+font-size: 18px;
+font-family: Arial;
+color: navy;
+}
+
+#Information block{
+flex: 1;
+background-color: royalblue;
+resize: none;
+outline: none;
+border: none;
+margin: 10px;
+flex-direction: row;
+}
+
+#InfoHeader{
+    color: seashell;
+    padding: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    margin: 0px;
+   }
+   
+   
+       
